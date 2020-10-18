@@ -1,0 +1,35 @@
+
+aside.sidebar {
+    position: fixed;
+    height: 100%;
+    padding: 3.2rem 2.4rem;
+    background: #46cc5d;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  aside.sidebar footer button {
+    width: 4.8rem;
+    height: 4.8rem;
+    border: none;
+    background: #3bad4e;
+    border-radius: 1.6rem;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    transition: background 0.2s;
+  }
+  
+  aside.sidebar footer button:hover {
+    background: #71e07c;
+  }
+  
+  .with-sidebar {
+    padding-left: 11rem;
+  }
