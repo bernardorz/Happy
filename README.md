@@ -43,3 +43,4 @@ Isso gerará os arquivos ```package-lock.json``` e ```node_modules/```, que cont
 - Template engine handlebars
 - Express
 - Nodemon
+- Sql
